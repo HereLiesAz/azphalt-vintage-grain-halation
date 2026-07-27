@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.vintage-grain-halation",
+  "name": "Vintage Grain & Halation",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Fine animated film grain plus warm halation bloom around bright highlights — the vintage, nostalgic look smart-effect tools reach for automatically.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/vintage-grain-halation.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "stylize", "vintage", "film-grain", "halation", "nostalgic", "one-click"]
+    }
+  ]
+}
